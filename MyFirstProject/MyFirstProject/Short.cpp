@@ -10,6 +10,10 @@ int main()
 
 	string sonuc = (saat < 12) ? "Öðleden önce" : "Öðleden sonra";
 
+	unsigned short x{ 65535 };
+
+	std:cout << "x yeni : " << x << '</n';
+
 	cout << sonuc;
 };
 
